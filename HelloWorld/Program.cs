@@ -1,7 +1,9 @@
 ﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
 using HelloWorld.Shapes;
+using HelloWorld.Extensions;
 
 namespace HelloWorld
 {
@@ -41,6 +43,8 @@ namespace HelloWorld
 
             Circle c = new Circle();
             Rectangle r = new Rectangle();
+            Dictionary<string, int> bobsExtensionDictionary = new Dictionary<string,int>();
+            bobsExtensionDictionary.HelloBob<string,int>("asdf");
 
 
             IEnumerable<Shape<Circle>> shapes = new List<Circle>();
@@ -130,8 +134,12 @@ namespace HelloWorld
             //}
 
             Circle myCircle = new Circle();
+            Sphere mySphere = new Sphere();
             Triangle myTriangle = new Triangle();
             Rectangle myRectangle = new Rectangle();
+
+            myCircle.DrawShape();
+            mySphere.DrawShape();
 
             //Shape[] myShapes = new Shape[30];
             //for (int i = 0; i < myShapes.Length; i++)

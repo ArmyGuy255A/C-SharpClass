@@ -38,5 +38,10 @@ namespace HelloWorld.Shapes
             
             return result;
         }
+
+        public virtual void DrawShape()
+        {
+            Console.WriteLine("Drawing a Shape");
+        }
     }
 }

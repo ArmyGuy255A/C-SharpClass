@@ -6,6 +6,6 @@ namespace HelloWorld.Shapes
 {
     interface I3DShape
     {
-        int width { get; set; }
+        int width { get; set; }        
     }
 }

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {}
+    "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\HelloWorld\\HelloWorld.csproj": {}
   },
   "projects": {
-    "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj": {
+    "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\HelloWorld\\HelloWorld.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectUniqueName": "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\HelloWorld\\HelloWorld.csproj",
         "projectName": "HelloWorld",
-        "projectPath": "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\HelloWorld\\HelloWorld.csproj",
+        "projectPath": "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\HelloWorld\\HelloWorld.csproj",
         "packagesPath": "C:\\Users\\mrdie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\HelloWorld\\obj\\",
+        "outputPath": "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\HelloWorld\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\mrdie\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -40,6 +40,12 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
             "Microsoft.Extensions.Configuration.Json": {
               "target": "Package",
               "version": "[5.0.0, )"

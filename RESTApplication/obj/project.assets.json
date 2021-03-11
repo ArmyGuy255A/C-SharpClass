@@ -389,11 +389,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\RESTApplication\\RESTApplication.csproj",
+      "projectUniqueName": "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\RESTApplication\\RESTApplication.csproj",
       "projectName": "RESTApplication",
-      "projectPath": "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\RESTApplication\\RESTApplication.csproj",
+      "projectPath": "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\RESTApplication\\RESTApplication.csproj",
       "packagesPath": "C:\\Users\\mrdie\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\mrdie\\source\\repos\\HelloWorld\\RESTApplication\\obj\\",
+      "outputPath": "C:\\Users\\mrdie\\OneDrive\\Programming\\C#\\C-SharpClass\\RESTApplication\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\mrdie\\AppData\\Roaming\\NuGet\\NuGet.Config",
